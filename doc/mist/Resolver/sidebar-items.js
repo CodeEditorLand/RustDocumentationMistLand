@@ -1,1 +1,4 @@
-window.SIDEBAR_ITEMS = {"fn":["LandResolver"],"struct":["LandDnsResolver","TokioResolver"]};
+window.SIDEBAR_ITEMS = {
+	"fn": ["LandResolver"],
+	"struct": ["LandDnsResolver", "TokioResolver"],
+};
