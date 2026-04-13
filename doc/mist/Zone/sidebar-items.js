@@ -1,3 +1,1 @@
-window.SIDEBAR_ITEMS = {
-	"fn": ["CustomAuthority", "EditorLandAuthority", "EditorLandZone"],
-};
+window.SIDEBAR_ITEMS = {"fn":["CustomAuthority","EditorLandAuthority","EditorLandZone"]};
