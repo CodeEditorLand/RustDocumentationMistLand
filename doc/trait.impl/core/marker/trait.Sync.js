@@ -1,9 +1,9 @@
 (function() {
-    const implementors = Object.fromEntries([["mist",[["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/marker/trait.Sync.html\" title=\"trait core::marker::Sync\">Sync</a> for <a class=\"struct\" href=\"mist/Resolver/struct.LandDnsResolver.html\" title=\"struct mist::Resolver::LandDnsResolver\">LandDnsResolver</a>",0,1,["mist::Resolver::LandDnsResolver"]],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/marker/trait.Sync.html\" title=\"trait core::marker::Sync\">Sync</a> for <a class=\"struct\" href=\"mist/Resolver/struct.TokioResolver.html\" title=\"struct mist::Resolver::TokioResolver\">TokioResolver</a>",0,1,["mist::Resolver::TokioResolver"]]]]]);
+    const implementors = Object.fromEntries([["Mist",[["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/marker/trait.Sync.html\" title=\"trait core::marker::Sync\">Sync</a> for <a class=\"struct\" href=\"Mist/Resolver/struct.LandDnsResolver.html\" title=\"struct Mist::Resolver::LandDnsResolver\">LandDnsResolver</a>",0,1,["Mist::Resolver::LandDnsResolver"]],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/marker/trait.Sync.html\" title=\"trait core::marker::Sync\">Sync</a> for <a class=\"struct\" href=\"Mist/Resolver/struct.TokioResolver.html\" title=\"struct Mist::Resolver::TokioResolver\">TokioResolver</a>",0,1,["Mist::Resolver::TokioResolver"]]]],["mist",[["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/marker/trait.Sync.html\" title=\"trait core::marker::Sync\">Sync</a> for <a class=\"struct\" href=\"mist/Resolver/struct.LandDnsResolver.html\" title=\"struct mist::Resolver::LandDnsResolver\">LandDnsResolver</a>",0,1,["mist::Resolver::LandDnsResolver"]],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/marker/trait.Sync.html\" title=\"trait core::marker::Sync\">Sync</a> for <a class=\"struct\" href=\"mist/Resolver/struct.TokioResolver.html\" title=\"struct mist::Resolver::TokioResolver\">TokioResolver</a>",0,1,["mist::Resolver::TokioResolver"]]]]]);
     if (window.register_implementors) {
         window.register_implementors(implementors);
     } else {
         window.pending_implementors = implementors;
     }
 })()
-//{"start":59,"fragment_lengths":[656]}
+//{"start":59,"fragment_lengths":[656,657]}
