@@ -38,8 +38,8 @@
 <a href=#38 id=38 data-nosnippet>38</a><span class="kw">use </span>once_cell::sync::OnceCell;
 <a href=#39 id=39 data-nosnippet>39</a>
 <a href=#40 id=40 data-nosnippet>40</a><span class="comment">// Public module exports (PascalCase per project convention)
-<a href=#41 id=41 data-nosnippet>41</a></span><span class="kw">pub mod </span><a href="Server.rs.html#1-138">Server</a>;
-<a href=#42 id=42 data-nosnippet>42</a><span class="kw">pub mod </span><a href="Zone.rs.html#1-98">Zone</a>;
+<a href=#41 id=41 data-nosnippet>41</a></span><span class="kw">pub mod </span><a href="Server.rs.html#1-172">Server</a>;
+<a href=#42 id=42 data-nosnippet>42</a><span class="kw">pub mod </span><a href="Zone.rs.html#1-120">Zone</a>;
 <a href=#43 id=43 data-nosnippet>43</a><span class="kw">pub mod </span><a href="Resolver.rs.html#1-63">Resolver</a>;
 <a href=#44 id=44 data-nosnippet>44</a><span class="kw">pub mod </span><a href="ForwardSecurity.rs.html#1-39">ForwardSecurity</a>;
 <a href=#45 id=45 data-nosnippet>45</a>
@@ -133,11 +133,11 @@
 <a href=#133 id=133 data-nosnippet>133</a>		.<a href="https://doc.rust-lang.org/nightly/core/result/enum.Result.html#method.map_err">map_err</a>(|<span class="kw">_</span>| <a href="https://docs.rs/anyhow/1.0.102/anyhow/macro.anyhow.html">anyhow::anyhow!</a>(<span class="string">"DNS port has already been set"</span>))<span class="question-mark">?</span>;
 <a href=#134 id=134 data-nosnippet>134</a>
 <a href=#135 id=135 data-nosnippet>135</a>	<span class="comment">// Step 3: Build the DNS catalog
-<a href=#136 id=136 data-nosnippet>136</a>	</span><span class="kw">let </span>catalog = Server::<a href="Server.rs.html#24-36">BuildCatalog</a>(<a href="#123">port</a>)<span class="question-mark">?</span>;
+<a href=#136 id=136 data-nosnippet>136</a>	</span><span class="kw">let </span>catalog = Server::<a href="Server.rs.html#41-64">BuildCatalog</a>(<a href="#123">port</a>)<span class="question-mark">?</span>;
 <a href=#137 id=137 data-nosnippet>137</a>
 <a href=#138 id=138 data-nosnippet>138</a>	<span class="comment">// Step 4: Spawn the DNS server as a background task
 <a href=#139 id=139 data-nosnippet>139</a>	</span>thread::<a href="https://doc.rust-lang.org/nightly/std/thread/functions/fn.spawn.html">spawn</a>(<span class="kw">move </span>|| {
-<a href=#140 id=140 data-nosnippet>140</a>		<span class="kw">if let </span><a class="prelude-val" href="https://doc.rust-lang.org/nightly/core/result/enum.Result.html#variant.Err">Err</a>(e) = Server::<a href="Server.rs.html#118-122">ServeSync</a>(<a href="#136">catalog</a>, <a href="#123">port</a>) {
+<a href=#140 id=140 data-nosnippet>140</a>		<span class="kw">if let </span><a class="prelude-val" href="https://doc.rust-lang.org/nightly/core/result/enum.Result.html#variant.Err">Err</a>(e) = Server::<a href="Server.rs.html#152-156">ServeSync</a>(<a href="#136">catalog</a>, <a href="#123">port</a>) {
 <a href=#141 id=141 data-nosnippet>141</a>			<a href="https://doc.rust-lang.org/nightly/std/macro.eprintln.html">eprintln!</a>(<span class="string">"DNS server error: {:?}"</span>, e);
 <a href=#142 id=142 data-nosnippet>142</a>		}
 <a href=#143 id=143 data-nosnippet>143</a>	});
