@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":["dns_port","start"],"mod":["ForwardSecurity","Resolver","Server","Zone"],"static":["DNS_PORT"]};
+window.SIDEBAR_ITEMS = {"fn":["dns_port","start"],"mod":["ForwardSecurity","Resolver","Server","WebSocket","Zone"],"static":["DNS_PORT"]};

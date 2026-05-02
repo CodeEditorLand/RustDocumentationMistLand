@@ -1,2 +1,2 @@
-createSrcSidebar('[["Mist",["",[],["ForwardSecurity.rs","Resolver.rs","Server.rs","Zone.rs","lib.rs"]]]]');
-//{"start":19,"fragment_lengths":[84]}
+createSrcSidebar('[["Mist",["",[],["ForwardSecurity.rs","Resolver.rs","Server.rs","WebSocket.rs","Zone.rs","lib.rs"]]],["Mist",["",[],["ForwardSecurity.rs","Resolver.rs","Server.rs","Zone.rs","lib.rs"]]]]');
+//{"start":19,"fragment_lengths":[99,85]}
