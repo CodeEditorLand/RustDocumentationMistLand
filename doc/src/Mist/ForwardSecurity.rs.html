@@ -29,12 +29,14 @@
 <a href=#29 id=29 data-nosnippet>29</a>
 <a href=#30 id=30 data-nosnippet>30</a><span class="attr">#[cfg(test)]
 <a href=#31 id=31 data-nosnippet>31</a></span><span class="kw">mod </span>tests {
-<a href=#32 id=32 data-nosnippet>32</a>	<span class="kw">use </span>super::<span class="kw-2">*</span>;
-<a href=#33 id=33 data-nosnippet>33</a>
-<a href=#34 id=34 data-nosnippet>34</a>	<span class="attr">#[test]
-<a href=#35 id=35 data-nosnippet>35</a>	</span><span class="kw">fn </span>TestAllowlistGeneration() {
-<a href=#36 id=36 data-nosnippet>36</a>		<span class="kw">let </span>Allowlist:Vec&lt;Name&gt; = DefaultForwardAllowlist().filter_map(|R| R.ok()).collect();
-<a href=#37 id=37 data-nosnippet>37</a>		<span class="macro">assert!</span>(!Allowlist.is_empty(), <span class="string">"Allowlist should not be empty"</span>);
-<a href=#38 id=38 data-nosnippet>38</a>	}
-<a href=#39 id=39 data-nosnippet>39</a>}
+<a href=#32 id=32 data-nosnippet>32</a>
+<a href=#33 id=33 data-nosnippet>33</a>	<span class="kw">use </span>super::<span class="kw-2">*</span>;
+<a href=#34 id=34 data-nosnippet>34</a>
+<a href=#35 id=35 data-nosnippet>35</a>	<span class="attr">#[test]
+<a href=#36 id=36 data-nosnippet>36</a>	</span><span class="kw">fn </span>TestAllowlistGeneration() {
+<a href=#37 id=37 data-nosnippet>37</a>		<span class="kw">let </span>Allowlist:Vec&lt;Name&gt; = DefaultForwardAllowlist().filter_map(|R| R.ok()).collect();
+<a href=#38 id=38 data-nosnippet>38</a>
+<a href=#39 id=39 data-nosnippet>39</a>		<span class="macro">assert!</span>(!Allowlist.is_empty(), <span class="string">"Allowlist should not be empty"</span>);
+<a href=#40 id=40 data-nosnippet>40</a>	}
+<a href=#41 id=41 data-nosnippet>41</a>}
 </code></pre></div></section></main></body></html>
