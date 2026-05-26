@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"fn":["HandleConnection","ServeLocal"],"struct":["Client","HandlerRegistry","SharedSecret"],"type":["HandlerFn","PendingMap"]};

@@ -1,9 +1,0 @@
-(function() {
-    const implementors = Object.fromEntries([["Mist",[["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/marker/trait.Send.html\" title=\"trait core::marker::Send\">Send</a> for <a class=\"struct\" href=\"Mist/Resolver/struct.LandDnsResolver.html\" title=\"struct Mist::Resolver::LandDnsResolver\">LandDnsResolver</a>",0,1,["Mist::Resolver::LandDnsResolver"]],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/marker/trait.Send.html\" title=\"trait core::marker::Send\">Send</a> for <a class=\"struct\" href=\"Mist/Resolver/struct.TokioResolver.html\" title=\"struct Mist::Resolver::TokioResolver\">TokioResolver</a>",0,1,["Mist::Resolver::TokioResolver"]],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/marker/trait.Send.html\" title=\"trait core::marker::Send\">Send</a> for <a class=\"struct\" href=\"Mist/WebSocket/struct.Client.html\" title=\"struct Mist::WebSocket::Client\">Client</a>",0,1,["Mist::WebSocket::Client"]],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/marker/trait.Send.html\" title=\"trait core::marker::Send\">Send</a> for <a class=\"struct\" href=\"Mist/WebSocket/struct.HandlerRegistry.html\" title=\"struct Mist::WebSocket::HandlerRegistry\">HandlerRegistry</a>",0,1,["Mist::WebSocket::HandlerRegistry"]],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/marker/trait.Send.html\" title=\"trait core::marker::Send\">Send</a> for <a class=\"struct\" href=\"Mist/WebSocket/struct.SharedSecret.html\" title=\"struct Mist::WebSocket::SharedSecret\">SharedSecret</a>",0,1,["Mist::WebSocket::SharedSecret"]]]]]);
-    if (window.register_implementors) {
-        window.register_implementors(implementors);
-    } else {
-        window.pending_implementors = implementors;
-    }
-})()
-//{"start":59,"fragment_lengths":[1598]}
